@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import VoteCard from './VoteCard'
 
 function App() {
+  let options = [ {name: "Nulo", votes: 10}, {name: "Branco", votes: 5}, { name: "Candidato", votes: 0} ];
+  let title = 'Eleições 2020'
+  let state = 'open'
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <VoteCard options={options} title={title} state={state}/>
     </div>
   );
 }
