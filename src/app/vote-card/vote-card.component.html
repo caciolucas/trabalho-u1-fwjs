@@ -1,0 +1,10 @@
+<div class="votecard">
+    <div class="votecard-header">{{title}}</div>
+    <div class="votecard-body">
+        <app-voting [options]="options" *ngIf="state=='open'" style="width: 100%;" (vote)="vote($event)"></app-voting>
+        <app-results [options]="options" *ngIf="state=='closed'" style="width: 100%;"></app-results>
+    </div>
+    <div class="votecard-footer">
+        <div class="option-button button-blue" (click)="switchState()">{{state == 'open' ? 'Fechar' : 'Abrir'}}</div>
+    </div>
+</div>

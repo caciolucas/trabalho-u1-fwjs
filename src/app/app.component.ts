@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tarefa01';
+  options = [{name: 'Nulo', votes: 0}, {name: 'Branco', votes: 0}]
+  state = 'open'
+  title = 'Eleições 2020'
 }

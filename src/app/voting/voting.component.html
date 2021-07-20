@@ -1,0 +1,3 @@
+<div class="option-list">
+    <div class="option-button" *ngFor="let option of options; index as ind"  (click)="vote.emit(ind)">{{option.name}}</div>
+</div>

@@ -1,0 +1,3 @@
+<ul>
+    <li *ngFor="let option of options; index as index">{{option.name}} - {{calcPercent(option).toFixed(2)}}% ({{option.votes}})</li>
+</ul>
