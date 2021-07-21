@@ -13,6 +13,7 @@ export default {
     methods: {
         percentage(options,option){
             let total = options.reduce( ( sum, { votes } ) => sum + votes , 0)
+            if (total == 0) return 0;
             return ((option.votes/total)*100).toFixed(2)
         }
     },
