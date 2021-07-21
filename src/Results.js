@@ -1,7 +1,7 @@
 import './Results.css'
 
 function Results(props){
-    let calcPercent = (total, value) => {return (value / total) * 100};
+    let calcPercent = (total, value) => {return total > 0 ? ((value / total) * 100) : 0 };
     let totalVotes = props.options.reduce(function(a, b) {return a + b.votes;}, 0);
 
     let resultList = props.options.map(function(option, index){
