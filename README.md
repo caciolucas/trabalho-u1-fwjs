@@ -1,3 +1,8 @@
+# Storybook
+
+This project storybook is hosted on [chromatic.com](https://60f89f4d77fd2700390a8f4c-wtwqovcnly.chromatic.com/?path=/story/voting-components-results--eleicao).
+
+# Default project README
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
