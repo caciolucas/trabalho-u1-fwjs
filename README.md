@@ -1,3 +1,8 @@
+# Storybook
+
+This project storybook is hosted on [chromatic.com](hhttps://60f89f4d77fd2700390a8f4c-dvqadlymwc.chromatic.com/?path=/story/voting-components-result--eleicao).
+
+
 # Tarefa01
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
